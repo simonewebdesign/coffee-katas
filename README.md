@@ -1,7 +1,7 @@
 Coffee Katas
 ============
 
-Want to practice some katas?
+Want to try your hand at some CoffeeScript?
 
 How to
 ------
