@@ -1,0 +1,11 @@
+{
+  "name": "coffee-decorators",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --ui tdd test.coffee"
+  },
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "ISC"
+}

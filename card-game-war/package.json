@@ -1,0 +1,11 @@
+{
+  "name": "card-game-war",
+  "version": "0.0.0",
+  "description": "Card game war kata",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register test.coffee"
+  },
+  "author": "John Wrignt <johngeorge.wright@gmail.com>",
+  "license": "ISC"
+}

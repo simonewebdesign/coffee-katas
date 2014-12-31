@@ -1,0 +1,14 @@
+{
+  "name": "coffee-katas",
+  "version": "0.0.0",
+  "description": "",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
