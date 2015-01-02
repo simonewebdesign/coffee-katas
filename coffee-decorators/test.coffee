@@ -18,7 +18,7 @@ suite 'Beverages and condiments', ->
     beverage = new HouseBlend
     beverage = new Soya beverage
     expect(beverage.description()).to.equal 'house blend coffee with soya'
-    expect(beverage.cost()).to.equal .99
+    expect(beverage.cost()).to.equal 2.10
 
   test 'dark roasted, double mocha with a whip', ->
     beverage = new DarkRoast
