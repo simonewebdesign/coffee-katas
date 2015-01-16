@@ -1,15 +1,16 @@
 class exports.Espresso
-  description: ->
-  cost: ->
+  description: -> 'espresso'
+  cost: -> 1.99
 
 class exports.HouseBlend
-  description: ->
-  cost: ->
+  description: -> 'house blend coffee'
+  cost: -> 2
 
 class exports.DarkRoast
-  description: ->
-  cost: ->
+  description: -> 'dark roast'
+  cost: -> 0
 
 class exports.DoubleShot
-  description: ->
-  cost: ->
+  constructor: (@beverage) ->
+  description: -> 'double ' + @beverage.description()
+  cost: -> 1 + @beverage.cost()
